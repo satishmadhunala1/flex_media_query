@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>Document</title>
+</head>
+<style>
+    nav {
+        width: 100%;
+        height: 50px;
+        color: rgb(248, 248, 248);
+        background-color: black;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        cursor: pointer;
+    }
+    nav .but {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px; 
+        height: 50px; 
+        transition: background-color 1s, color 0.5s;
+    }
+    nav .but:hover {
+        color: black;
+        background-color: whitesmoke;
+    }
+    nav .end {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px; 
+        height: 50px; 
+        transition: background-color 0.3s, color 0.3s;
+    }
+    nav .end:hover {
+        color: black;
+        background-color: whitesmoke;
+    }
+    @media screen and (max-width : 600px){
+        nav{
+            display: none;
+        }
+        
+    }
+    h1{
+            font-weight: 100;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xxx-large;
+
+        }
+        h2{
+            font-size: large;
+            display: inline-block;
+        }
+        h3{
+            display: inline-block;
+        }
+</style>
+<body>
+    <nav>
+        <div class="but"><i class="fa-solid fa-bars"></i></div>
+        <div class="but"><i class="fa-brands fa-square-facebook"></i></div>
+        <div class="but"><i class="fa-brands fa-instagram"></i></div>
+        <div class="but"><i class="fa-brands fa-twitter"></i></div>
+        <div class="but"><i class="fa-brands fa-linkedin"></i></div>
+        <div class="but"><i class="fa-solid fa-phone"></i></div>
+        <div class="but"><i class="fa-brands fa-discord"></i></div> 
+        <div class="end">
+            <i class="fa-brands fa-searchengin"></i>
+        </div>
+    </nav>
+    <center><h1>JANE BLOGLIFE</h1></center>
+    <center><h2>Welcome to blog</h2>&nbsp;&nbsp;<h3>Jane's world</h3></center>
+    <img src="https://www.w3schools.com/w3images/jane.jpg" width="100%" alt="">
+
+</body>
+</html>
